@@ -82,11 +82,11 @@ function waitAndResponce(inputText) {
             sendTextMessage(resumeString);
             break;
         case "skills":
-            sendTextMessage("<span class='sk'>I am currently pursuing B.Tech degree in Computer Science Engineering.<br><br>I can comfortably write code in following languages :<br><span class='bold'>Java<br>C++<br>C<br>PHP<br>Kotlin<br>Dart<br>Python<br>CSS<br>HTML</span><br><br>I've experiance with following frameworks :<span class='bold'><br>Android<br>Flutter<br>ReactJs<br>GTK</span><br><br>I use <span class='bold'>Arch Linux</span> as daily driver on my HP Pavilion 15-ec0xxx<br>OS:Arch Linux<br>DE:Gnome(More often) Kde(often)<br>Favourite IDE:VSCode</span>");
+            sendTextMessage("<span class='sk'>I have completed pursuing B.Tech degree in Computer Science Engineering.<br><br>I can comfortably write code in following languages :<br><span class='bold'>Java<br>C++<br>C<br>PHP<br>Kotlin<br>Dart<br>Python<br>CSS<br>HTML</span><br><br>I've experiance with following frameworks :<span class='bold'><br>Android<br>Flutter<br>ReactJs<br>GTK</span><br><br>I use <span class='bold'>Arch Linux</span> as daily driver on my HP Pavilion 15-ec0xxx<br>OS:Arch Linux<br>DE:Gnome(More often) Kde(often)<br>Favourite IDE:VSCode</span>");
             break;
 
         case "education":
-            sendTextMessage("I am completed pusuing B.Tech degree in Computer Science Engineering from VTU<br>Passing Year : 2021<br><br>I have completed PUC in computer science combination with PCM<br>Passing Year:2017<br>Result:71%<br><br>I have completed my schooling from local school known as ST THOMAS PUBLIC SCHOOL<br>Passing Year:2014");
+            sendTextMessage("I have completed pursuing B.Tech degree in Computer Science Engineering from VTU<br>Passing Year : 2021<br><br>I have completed PUC in computer science combination with PCM<br>Passing Year:2017<br>Result:71%<br><br>I have completed my schooling from local school known as ST THOMAS PUBLIC SCHOOL<br>Passing Year:2014");
             break;
 
         case "address":
