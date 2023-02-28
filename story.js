@@ -97,7 +97,7 @@ function waitAndResponce(inputText) {
             clearChat();
             break;
         case "about":
-            sendTextMessage(🛠️💻 This portfolio website is built using HTML, CSS and JavaScript from SCRATCH!<br><br>👨🏻‍💻 Designed and Developed by <a class='alink' target='_blank' ><span class='bold'>Raghuram</a> with ❤️</span>");
+            sendTextMessage(🛠️💻 This portfolio website is built using HTML, CSS and JavaScript from SCRATCH!<br><br>👨🏻‍💻 Designed and Developed by <a class='alink' target='_blank' ><span class='bold'>Raghu</a> with ❤️</span>");
             break;
         case "contact":
             sendTextMessage(contactString);
