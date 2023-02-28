@@ -3,6 +3,8 @@ var contactString = "<div class='social'> <a target='_blank' href='tel:+91997281
 var resumeString = "<img src='images/resumeThumbnail.png' class='resumeThumbnail'><div class='downloadSpace'><div class='pdfname'><img src='images/pdf.png'><label>Raghuram's Resume.pdf</label></div><a href='assets/Vinayak Patil&#39;s Resume.pdf' download='Vinayak_Patil_Resume.pdf'><img class='download' src='images/downloadIcon.svg'></a></div>";
 var addressString = "<div class='mapview'><iframe src='https://www.google.com/maps/@12.9837296,77.6576167,19.07z' class='map'></iframe></div><label class='add'><address> 'SG PALYA'<br>CV Raman nagar<br>Bangalore, Karnataka, INDIA 560093</address>";
 
+
+
 function startFunction() {
     setLastSeen();
     waitAndResponce("intro");
@@ -115,6 +117,8 @@ function waitAndResponce(inputText) {
             break;
     }
     }
+
+
 
 
 }
