@@ -72,7 +72,7 @@ function waitAndResponce(inputText) {
     switch (inputText.toLowerCase().trim()) {
         case "intro":
             setTimeout(() => {
-                sendTextMessage("Hello there 👋🏻,<br><br>My name is <span class='bold'><a class='alink'>Vinayak Ramchandra Patil</a>.</span><br><br>I am a Computer Engineering student at <span class='bold'>Ch. Shivaji University 👨🏻‍💻📚</span><br><br>I am eager to hear about potential career opportunities, so I would be pleased to chat about job openings in the engineering sphere.<br><br>Send <span class='bold'>'help'</span> to know more about me.<br>");
+                sendTextMessage("Hello there 👋🏻,<br><br>My name is <span class='bold'><a class='alink'>Raghuram</a>.</span><br><br>I am a Computer Engineering student at <span class='bold'>Ch. Shivaji University 👨🏻‍💻📚</span><br><br>I am eager to hear about potential career opportunities, so I would be pleased to chat about job openings in the engineering sphere.<br><br>Send <span class='bold'>'help'</span> to know more about me.<br>");
             }, 2000);
             break;
         case "help":
@@ -82,11 +82,11 @@ function waitAndResponce(inputText) {
             sendTextMessage(resumeString);
             break;
         case "skills":
-            sendTextMessage("<span class='sk'>I am currently pursuing B.Tech degree in Computer Science Engineering.<br><br>I can comfortably write code in following languages :<br><span class='bold'>Java<br>C++<br>C<br>PHP<br>Kotlin<br>Dart<br>Python<br>CSS<br>HTML</span><br><br>I've experiance with following frameworks :<span class='bold'><br>Android<br>Flutter<br>ReactJs<br>GTK</span><br><br>I use <span class='bold'>Arch Linux</span> as daily driver on my HP Pavilion 15-ec0xxx<br>OS:Arch Linux<br>DE:Gnome(More often) Kde(often)<br>Favourite IDE:VSCode</span>");
+            sendTextMessage("<span class='sk'>I have completed pursuing B.Tech degree in Computer Science Engineering.<br><br>I can comfortably write code in following languages :<br><span class='bold'>Java<br>C++<br>C<br>PHP<br>Kotlin<br>Dart<br>Python<br>CSS<br>HTML</span><br><br>I've experiance with following frameworks :<span class='bold'><br>Android<br>Flutter<br>ReactJs<br>GTK</span><br><br>I use <span class='bold'>Arch Linux</span> as daily driver on my HP Pavilion 15-ec0xxx<br>OS:Arch Linux<br>DE:Gnome(More often) Kde(often)<br>Favourite IDE:VSCode</span>");
             break;
 
         case "education":
-            sendTextMessage("I am currently pusuing B.Tech degree in Computer Science Engineering from TKIET Kolhapur<br>Passing Year : 2023<br><br>I have completed my Diploma from Government Polytechnic Karad<br>Passing Year:2020<br>Result:86.06%<br><br>I have completed my Secondary school from local school known as SWV<br>Passing Year:2016");
+            sendTextMessage("I have completed B.Tech degree in Computer Science Engineering from VTU<br>Passing Year : 2023<br><br>I have completed my Diploma from Government Polytechnic Karad<br>Passing Year:2020<br>Result:86.06%<br><br>I have completed my Secondary school from local school known as SWV<br>Passing Year:2016");
             break;
 
         case "address":
